@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">   
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />  
+<meta name="format-detection" content="telephone=no"/>  
+<title></title>
+<!-- head中需要引入的部分 begin -->
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="css/mystyle.css" rel="stylesheet" type="text/css">
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/transit.js"></script>
+<script src="js/touchSwipe.js"></script>
+<script src="js/simpleSlider.js"></script>
+<script src="js/backstretch.js"></script>
+<script src="js/custom.js"></script>
+<!-- head中需要引入的部分end -->
+    <script>
+      document.title = /*title*/"有梦想，不孤单"/*title*/;
+    </script>
+</head>
+<body>
+<!-- 代码 begin -->
+<div class='pagewrap'>
+  <div class='pageblock' id='fullscreen'>
+    <div class='slider'>
+      <div class='slide' id="first">
+        <div class='slidecontent'> 
+          <span class="headersur">标题一</span>
+          <h1>SIMPLE SLIDER</h1>
+          <div class="text">
+          <p></p>
+          <xmp> </xmp>
+          <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+        </div>
+        </div>
+      </div>
+      <div class='slide' id="sec">
+        <div class='slidecontent'> 
+          <span class="headersur">标题二</span>
+          <h1>INCLUDE</h1>
+          <div class="text">
+            <p>Go to the  Github page and download the simpleslider.js file. Don't forget to download the touchswipe.js and transit.js if you're going for a complete (and still simple) slider.<br>
+              Now you have the files you can include them in your header.</p>
+              <xmp></xmp>
+            <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id="thirth">
+        <div class='slidecontent'> 
+          <span class="headersur">标题三</span>
+          <h1>BIND IT</h1>
+          <div class="text">
+            <p>Now it's time to bind the simpleslider on your HTML element. Check the  Github README for an example HTML.</p>
+              <xmp>$(document).ready(function(){
+                   $(".slider").simpleSlider();
+                    });
+              </xmp>
+            <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id="fourth">
+        <div class='slidecontent'> 
+          <span class="headersur">标题四</span>
+          <h1>WATCH</h1>
+          <div class="text">
+            <p>SimpleSlider will now do the rest. Are you looking for more options? Check the Github readme!
+              SimpleSlider standard comes with a few methods, triggers and a tracker. These are all easy to configure. 
+              More information about them can be found on the Github page<br/>
+              Btw, this site has been made using simpleslider! </p>
+              <xmp></xmp>
+              <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+          </div>
+        </div>
+      </div>
+
+
+       <div class='slide' id="fifth">
+        <div class='slidecontent'> <span class="headersur">标题五</span>
+          <h1>WATCH</h1>
+          <div class="text">
+            <p>SimpleSlider will now do the rest. Are you looking for more options? Check the Github readme!
+            SimpleSlider standard comes with a few methods, triggers and a tracker. These are all easy to configure. 
+              More information about them can be found on the Github page<br/>
+             </p>
+             <xmp>Btw, this site has been made using simpleslider! </xmp>
+            <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class='slide' id="sixth">
+        <div class='slidecontent'> <span class="headersur">标题六</span>
+          <h1>WATCH</h1>
+          <div class="text">
+            <p>SimpleSlider will now do the rest. Are you looking for more options? Check the Github readme!
+            SimpleSlider standard comes with a few methods, triggers and a tracker. These are all easy to configure. 
+              More information about them can be found on the Github page<br/>
+             </p>
+             <xmp>Btw, this site has been made using simpleslider! </xmp>
+            <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<script type="text/javascript">
+      $("#first>.slidecontent>.headersur").html(/*ttle1*/"title1"/*ttle1*/);
+      $("#sec>.slidecontent>.headersur").html(/*ttle2*/"title2"/*ttle2*/);
+      $("#thirth>.slidecontent>.headersur").html(/*ttle3*/"title3"/*ttle3*/);
+      $("#fourth>.slidecontent>.headersur").html(/*ttle4*/"title4"/*ttle4*/);
+      $("#fifth>.slidecontent>.headersur").html(/*ttle5*/"title5"/*ttle5*/);
+      $("#sixth>.slidecontent>.headersur").html(/*ttle6*/"title6"/*ttle6*/);
+
+
+      if ( $("#first>.slidecontent>.text>.button").html(/*tbtn*/"next"/*tbtn*/));
+      if ( $("#sec>.slidecontent>.text>.button").html(/*tbtn*/"next"/*tbtn*/));
+      if ( $("#thirth>.slidecontent>.text>.button").html(/*tbtn*/"next"/*tbtn*/));
+      if ( $("#fourth>.slidecontent>.text>.button").html(/*tbtn*/"next"/*tbtn*/));
+      if ( $("#fifth>.slidecontent>.text>.button").html(/*tbtn*/"next"/*tbtn*/));
+      if ( $("#sixth>.slidecontent>.text>.button").html(/*tbtn*/"next"/*tbtn*/));
+
+      $("#first>.slidecontent>h1").html(/*tdsc1*/"dsc1"/*tdsc1*/);
+      $("#sec>.slidecontent>h1").html(/*tdsc2*/"dsc2"/*tdsc2*/);
+      $("#thirth>.slidecontent>h1").html(/*tdsc3*/"dsc3"/*tdsc3*/);
+      $("#fourth>.slidecontent>h1").html(/*tdsc4*/"dsc4"/*tdsc4*/);
+      $("#fifth>.slidecontent>h1").html(/*tdsc5*/"dsc5"/*tdsc5*/);
+       $("#sixth>.slidecontent>h1").html(/*tdsc6*/"dsc6"/*tdsc6*/);
+
+
+      $("#first>.slidecontent>.text>p").html(/*tp1*/"p1"/*tp1*/);
+      $("#sec>.slidecontent>.text>p").html(/*tp2*/"p2"/*tp2*/);
+      $("#thirth>.slidecontent>.text>p").html(/*tp3*/"p3"/*tp3*/);
+      $("#fourth>.slidecontent>.text>p").html(/*tp4*/"p4"/*tp4*/);
+      $("#fifth>.slidecontent>.text>p").html(/*tp5*/"p5"/*tp5*/);
+      $("#sixth>.slidecontent>.text>p").html(/*tp6*/"p6"/*tp6*/);
+
+
+      $("#first>.slidecontent>.text>xmp").html(/*txmp1*/"xmp1"/*txmp1*/);
+      $("#sec>.slidecontent>.text>xmp").html(/*txmp2*/"xmp2"/*txmp2*/);
+      $("#thirth>.slidecontent>.text>xmp").html(/*txmp3*/"xmp3"/*txmp3*/);
+      $("#fourth>.slidecontent>.text>xmp").html(/*txmp4*/"xmp4"/*txmp4*/);
+      $("#fifth>.slidecontent>.text>xmp").html(/*txmp5*/"xmp5"/*txmp5*/);
+       $("#sixth>.slidecontent>.text>xmp").html(/*txmp6*/"xmp6"/*txmp6*/);
+
+      if ( $("#first>.slidecontent>.text>xmp").html() === "") {$("#first>.slidecontent>.text>xmp").remove();};
+      if ( $("#sec>.slidecontent>.text>xmp").html() === "") {$("#sec>.slidecontent>.text>xmp").remove();};
+      if ( $("#thirth>.slidecontent>.text>xmp").html() === "") {$("#thirth>.slidecontent>.text>xmp").remove();};
+      if ( $("#fourth>.slidecontent>.text>xmp").html() === "") {$("#fourth>.slidecontent>.text>xmp").remove();};
+      if ( $("#fifth>.slidecontent>.text>xmp").html() === "") {$("#fifth>.slidecontent>.text>xmp").remove();};
+      if ( $("#sixth>.slidecontent>.text>xmp").html() === "") {$("#sixth>.slidecontent>.text>xmp").remove();};
+
+
+      if ( $("#first>.slidecontent>span").html()=== "") {$("#first>.slidecontent>span").remove();};
+      if ( $("#sec>.slidecontent>span").html() === "") {$("#sec>.slidecontent>span").remove();};
+      if ( $("#thirth>.slidecontent>span").html() === "") {$("#thirth>.slidecontent>span").remove();};
+      if ( $("#fourth>.slidecontent>span").html() === "") {$("#fourth>.slidecontent>span").remove();};
+      if ( $("#fifth>.slidecontent>span").html() === "") {$("#fifth>.slidecontent>span").remove();};
+       if ( $("#sixth>.slidecontent>span").html() === "") {$("#sixth>.slidecontent>span").remove();};
+
+      if ( $("#first>.slidecontent>.button").html()=== "") {$("#first>.slidecontent>.button").remove();};
+      if ( $("#sec>.slidecontent>.button").html() === "") {$("#sec>.slidecontent>.button").remove();};
+      if ( $("#thirth>.slidecontent>.button").html() === "") {$("#thirth>.slidecontent>.button").remove();};
+      if ( $("#fourth>.slidecontent>.button").html() === "") {$("#fourth>.slidecontent>.button").remove();};
+      if ( $("#fifth>.slidecontent>.button").html() === "") {$("#fifth>.slidecontent>.button").remove();};
+       if ( $("#sixth>.slidecontent>.button").html() === "") {$("#sixth>.slidecontent>.button").remove();};
+     
+</script>
+
+
+
+
+<!-- 音乐 start -->
+<div id="music">
+<div class="music play" id="musicPic" name= "s"></div>
+<audio src="" id="mp3" autoplay="autoplay" loop="loop"></audio>
+</div>
+
+<script type="text/javascript">
+
+document.getElementById("mp3").src=/*mmusic*/"http://dn-h6app.qbox.me/static/media/pingwest/Derezzed.mp3"/*mmusic*/;
+ var userW = /*uu*/"adminN"/*uu*/;
+function c(a) {
+  var b=new Image, c="http://support.weixin.qq.com/cgi-bin/mmsupport-bin/webgamereport?1=1", d=j;
+  d.nUrOpState=a, c+="&appid="+d.sAppID||"0", c+="&usropstate="+d.nUrOpState||"0", c+="&networktype="+d.nNetworkType||"0", c+="&device="+d.sDeivceType||"0", c+="&clientversion="+d.sClientVersion||"0", c+="&uin="+d.sUin||"0", c+="&sourcescene="+d.nSourceScene||"0", c+="&appstate="+d.nAppState||"0", c+="&appversion="+d.nAppVersion||"0", c+="&assiststate="+d.nAssistState||"0", c+="&assistversion="+d.nAssistVersion||"0", "http://www.lemontool.com/html5/"+userW+"/"+d.nNoticeID||0, b.src=c
+}
+
+</script>
+<!-- 音乐 end -->
+
+<!-- 代码 end -->
+</body>
+</html>

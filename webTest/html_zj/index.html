@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">   
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />  
+<meta name="format-detection" content="telephone=no"/>  
+<title>全屏切换焦点图效果</title>
+<!-- head中需要引入的部分 begin -->
+<link href="css/mystyle.css" rel="stylesheet" type="text/css">
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/transit.js"></script>
+<script src="js/touchSwipe.js"></script>
+<script src="js/simpleSlider.js"></script>
+<script src="js/backstretch.js"></script>
+<script src="js/custom.js"></script>
+<!-- head中需要引入的部分end -->
+</head>
+<body>
+<!-- 代码 begin -->
+<div class='pagewrap'>
+  <div class='pageblock' id='fullscreen'>
+    <div class='slider'>
+      <div class='slide' id="first">
+        <div class='slidecontent'> <span class="headersur">标题一</span>
+          <h1>SIMPLE SLIDER</h1>
+          <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+        </div>
+      </div>
+      <div class='slide' id="sec">
+        <div class='slidecontent'> <span class="headersur">标题二</span>
+          <h1>INCLUDE</h1>
+          <div class="text">
+            <p>Go to the  Github page and download the simpleslider.js file. Don't forget to download the touchswipe.js and transit.js if you're going for a complete (and still simple) slider.<br>
+              Now you have the files you can include them in your header.</p>
+            <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id="thirth">
+        <div class='slidecontent'> <span class="headersur">标题三</span>
+          <h1>BIND IT</h1>
+          <div class="text">
+            <p>Now it's time to bind the simpleslider on your HTML element. Check the  Github README for an example HTML.</p>
+              <xmp>$(document).ready(function(){
+                   $(".slider").simpleSlider();
+                    });
+              </xmp>
+            <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id="fourth">
+        <div class='slidecontent'> <span class="headersur">标题四</span>
+          <h1>WATCH</h1>
+          <div class="text">
+            <p>SimpleSlider will now do the rest. Are you looking for more options? Check the Github readme!</p>
+            <p>SimpleSlider standard comes with a few methods, triggers and a tracker. These are all easy to configure. More information about them can be found on the Github page<br/>
+              Btw, this site has been made using simpleslider! </p>
+              <div class="button" onClick="mainslider.nextSlide();">Next Page</div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+       <div class='slide' id="fifth">
+        <div class='slidecontent'> <span class="headersur">标题五</span>
+          <h1>WATCH</h1>
+          <div class="text">
+            <p>SimpleSlider will now do the rest. Are you looking for more options? Check the Github readme!</p>
+            <p>SimpleSlider standard comes with a few methods, triggers and a tracker. These are all easy to configure. More information about them can be found on the Github page<br/>
+               <xmp>Btw, this site has been made using simpleslider! </xmp> </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div id="music">
+<div class="music play"></div>
+<span class="">开启</span>
+<audio src="http://dn-h6app.qbox.me/static/media/pingwest/Derezzed.mp3" id="mp3" autoplay="autoplay" loop="loop"></audio>
+</div>
+</div>
+
+<!-- 代码 end -->
+</body>
+</html>

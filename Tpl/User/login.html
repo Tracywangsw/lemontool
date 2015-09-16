@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>lemontool登录</title>
+<import type = "css" file = "css/header"/>
+<import type = "css" file = "css/initial"/>
+<import type = "css" file = "css/register"/>
+<import type = "js" file = "js/jquery_min"/>
+<import type = "js" file = "js/jquery"/>
+<import type = "js" file = "js/common"/>
+<import type = "js" file = "js/login"/>
+</head>
+
+<body>
+<!------header--------->
+<include file="./Tpl/header.html" />
+<!-------------content-------->
+<div style="width:100%;height:500px">
+<div style="padding:150px 300px;">
+	<div class="rg_frame">
+	<div class="rg_word">欢迎登录，这里给您提供更有保障的服务！还没账号，点击<a href="register">这里</a>注册</div>
+	<div class="rg_form">
+		<div class="log_error">{$login_error}</div>
+		<form method="post" name="" id="register" onsubmit="" action="login">
+			<table class="rg_table">
+				<tr>
+					<td>邮箱/手机</td>
+					<td><input type="text" name="unique_tel" id="unique_tel"/></td>
+					<td id="tip_1"></td>
+				</tr>
+				
+				<tr>
+					<td>密码</td>
+					<td><input type="password" name="pwd" id="pwd"/></td>
+					<td id="tip_2"></td>
+				</tr>
+				<tr>
+					<td>验证码</td>
+					<td>
+						<input type="text" class="input" id="code_num" name="code_num" maxlength="4" width="10px" />
+						<img src="../code_num.php" id="getcode_num" title="看不清，点击换一张" align="absmiddle"/>
+					</td>
+					<td id="tip_3"></td>
+				</tr>
+				<tr>
+					<td></td><td><input type="submit" id="submit" value="登录"/></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+<div>
+</div>
+</div>
+</body>
+</html>

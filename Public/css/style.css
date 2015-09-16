@@ -1,0 +1,177 @@
+/* CSS Document */
+
+
+.bone{
+	width:100%;
+	background-color:#000;
+	
+	height:200px;
+}
+
+
+.bone.bone_list{
+
+	float:left;
+}
+.bone .bone_list li a {
+	text-align: center;
+}
+.bone .bone_list li a .img {
+	
+	height: 200px;
+	
+	
+	-moz-transition: background-color .2s ease-out;
+	-webkit-transition: background-color .2s ease-out;
+	-o-transition: background-color .2s ease-out;
+	transition: background-color .2s ease-out;
+}
+.bone .bone_list li a .img2 {
+	
+	height: 200px;
+	
+	
+	-moz-transition: background-color .2s ease-out;
+	-webkit-transition: background-color .2s ease-out;
+	-o-transition: background-color .2s ease-out;
+	transition: background-color .2s ease-out;
+}
+.bone .bone_list li a .icon{
+background:url(../../images/xiazai.png)
+
+}
+.bone .bone_list li a:hover .icon {
+background:url(../../images/xiazai2.png)
+}
+
+
+
+
+.bone .bone_list li a .icon_1 {
+background:url(../../images/2048.jpg)
+
+}
+.bone .bone_list li a:hover .icon_1 {
+background:url(../../images/20482.jpg)
+}
+.bone .bone_list li a .icon_2 {
+background:url(../../images/flappy.jpg)
+
+}
+.bone .bone_list li a:hover .icon_2 {
+background:url(../../images/flappy2.jpg)
+}
+.bone .bone_list li{
+
+	float: left;
+	
+
+}
+.bone .bone_list li a {
+	display: block;
+	text-align:center;
+}
+
+.more{
+	background:url(../../images/bg2.jpg);
+	background-size: 100% 100%;	
+	padding:50px 0px 0px 0px;
+	overflow:hidden;
+	height:518px;
+	
+}
+.more_bg{
+	
+}
+.more h3{
+	font-size: 24px;
+	color:#FFF;
+	font-weight: bold;	
+}
+.more .more_list{
+	overflow:hidden;
+	padding:50px 0 100px 100px;
+		
+}
+.more .more_l{
+	padding:20px 0 0 0;
+	width:250px;
+	color:#FFF
+}
+.more .more_l a{
+	color:#CCC	
+}
+.more .more_l li{
+	line-height:60px;
+	font-size: 20px;
+}
+.more .more_r{
+	padding:64px 0 0 0;	
+}
+.more .more_r li{
+	float:left;
+	width:220px;
+}
+
+.column1_left {position:relative;top:0px; width:100%;height:538px margin:60px 0 0 0; text-align:center;background-color:#000 }
+.container { width:1360px; height:538px; overflow:hidden;background:#000 }
+.slider li { list-style:none; display:inline; }
+.slider img {width:1360px; height:538px; display:block; border:0; }
+.slider2 li { float:left; position:relative }
+.detail{
+	width:210px;
+	height:69px;
+	position:absolute;
+	top:267px;
+	left:231px;
+	z-index:1000;
+	
+	
+}
+.detail img{
+	width:210px;
+	height:69px;
+}
+.num {
+	position:absolute;
+	left:19px;
+	bottom:202px;
+	height:90px;
+	_bottom:1px;
+	z-index:20;
+}
+
+.idSiideer_pos{
+	height:500px;
+	line-height:27px;
+	color:#FFF;
+	position:absolute;
+	left:800px;
+	top:30px;
+	width:300px;
+	text-align:left;
+	z-index: 10;
+	padding:20px 20px 0 20px;
+}
+.idSiideer_pos h3{
+	font-size:24px;
+	font-weight:bold;
+}
+.idSiideer_pos2{
+	height:600px;
+	background:#000;
+	position:absolute;
+	left:800px;
+	
+	top:0px;
+	width:300px;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+}
+
+
+#tinybox{position:absolute; display:none; padding:10px; background:#ffffff url(image/preload.gif) no-repeat 50% 50%; border:10px solid #e3e3e3; z-index:2000;}
+#tinymask{position:absolute; display:none; top:0; left:0; height:100%; width:100%; background:#000000; z-index:1500;}
+#tinycontent{background:#ffffff; font-size:1.1em;}
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+#n a{ padding:0 4px; color:#333}

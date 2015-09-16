@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+		<title>Html5</title>
+		<link href="imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 	
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+		<script type="text/javascript" src="js/o-script.js"></script>
+		
+		<script type='text/javascript' src='js/slider/jquery.mobile.customized.min.js'></script>
+		<script type='text/javascript' src='js/slider/jquery.easing.1.3.js'></script> 
+		<script type='text/javascript' src='js/slider/camera.min.js'></script> 
+		
+		<script>
+			document.title = /*title*/"有梦想，不孤单"/*title*/;
+
+			jQuery(function(){
+				
+				jQuery('#camera_wrap_4').camera({
+					height: 'auto',
+					loader: 'bar',
+					pagination: false,
+					thumbnails: false,
+					hover: false,
+					opacityOnGrid: false
+				});
+
+			});
+		</script>
+	</head>
+	<body class="o-page p-home">
+		<div id="page">
+			<!-- Content -->
+			<div id="content">
+				<div class="home-content">
+					<span id="Logo" class="svg">
+						<img src="img/logo.svg" />
+					</span>
+				</div>
+				<div class="fluid_container">
+					<div class="camera_wrap camera_black_skin camera_emboss pattern_1" id="camera_wrap_4">
+						<div data-thumb="img/gallery/1-th.jpg" data-src="img/gallery/1.jpg">
+							<div class="bannerContent fadeFromBottom">
+								<div class="b-c-textpane">
+									<h1><hbt_1/>1.95$<hbt_1/></h1>
+									<p><disc_1/>Lorem ipsum sit dolor<disc_1/></p>
+								</div>
+							</div>
+						</div>
+						<div data-thumb="img/gallery/2-th.jpg"  data-src="img/gallery/2.jpg">
+							<div class="bannerContent fadeFromBottom">
+								<div class="b-c-textpane">
+									<h1><hbt_2/>3.95$<hbt_2/></h1>
+									<p><disc_2/>Lorem ipsum sit dolor<disc_2/></p>
+								</div>
+							</div>
+						</div>
+						<div data-thumb="img/gallery/3-th.jpg"  data-src="img/gallery/3.jpg">
+							<div class="bannerContent fadeFromBottom">
+								<div class="b-c-textpane">
+									<h1><hbt_3/>19.95$<hbt_3/></h1>
+									<p><disc_3/>Lorem ipsum sit dolor<disc_3/></p>
+								</div>
+							</div>
+						</div>
+
+						<div data-thumb="img/gallery/4-th.jpg"  data-src="img/gallery/4.jpg">
+							<div class="bannerContent fadeFromBottom">
+								<div class="b-c-textpane">
+									<h1><hbt_4/>29.95$<hbt_4/></h1>
+									<p><disc_4/>Lorem ipsum sit dolor<disc_4/></p>
+								</div>
+							</div>
+						</div>
+
+
+						<div data-thumb="img/gallery/5-th.jpg"  data-src="img/gallery/3.jpg">
+							<div class="bannerContent fadeFromBottom">
+								<div class="b-c-textpane">
+									<h1><hbt_5/>14.25$<hbt_5/></h1>
+									<p><disc_5/>Lorem ipsum sit dolor<disc_5/></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					
+					<!-- #camera_wrap_3 -->
+
+				</div><!-- .fluid_container -->		
+				<!-- <a href="#" class="home-footer">
+					About us
+				</a> -->
+			</div>	
+		</div>
+ 
+
+		<!-- 音乐 start -->
+<div id="music">
+<div class="music play" id="musicPic" name= "s"></div>
+<audio src="" id="mp3" autoplay="autoplay" loop="loop"></audio>
+</div>
+
+<script type="text/javascript">
+
+document.getElementById("mp3").src=/*mmusic*/"http://dn-h6app.qbox.me/static/media/pingwest/Derezzed.mp3"/*mmusic*/;
+ var userW = /*uu*/"adminN"/*uu*/;
+function c(a) {
+	var b=new Image, c="http://support.weixin.qq.com/cgi-bin/mmsupport-bin/webgamereport?1=1", d=j;
+	d.nUrOpState=a, c+="&appid="+d.sAppID||"0", c+="&usropstate="+d.nUrOpState||"0", c+="&networktype="+d.nNetworkType||"0", c+="&device="+d.sDeivceType||"0", c+="&clientversion="+d.sClientVersion||"0", c+="&uin="+d.sUin||"0", c+="&sourcescene="+d.nSourceScene||"0", c+="&appstate="+d.nAppState||"0", c+="&appversion="+d.nAppVersion||"0", c+="&assiststate="+d.nAssistState||"0", c+="&assistversion="+d.nAssistVersion||"0", "http://www.lemontool.com/html5/"+userW+"/"+d.nNoticeID||0, b.src=c
+}
+
+</script>
+<!-- 音乐 end -->
+	</body>
+</html>

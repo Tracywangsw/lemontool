@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*,html,form{
+	margin:0;
+	padding:0
+}
+
+ul,li{
+	list-style:none;
+	margin:0;
+	padding:0
+}
+
+img{
+	border:none
+}
+
+input{
+	outline:none;
+	
+}
+
+textarea{
+	resize:none
+}
+
+a,a:focus,button{
+	outline:none;
+	text-decoration:none;
+	color:#FFF;
+}
+
+a:focus{
+	background:none
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-style:normal;
+	font-weight:normal
+}
+
+body{
+	font-family:arial,'Microsoft YaHei',Verdana,'Times New Roman';
+	font-size:12px;
+	color:#666;
+	background-color:#000;
+}
+
+.clearfix:after{
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0
+}
+
+.clearfix{
+	zoom:1
+}
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;	
+}
+
+
+

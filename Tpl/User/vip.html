@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VIP</title>
+<import type = "css" file = "css/header"/>
+<import type = "css" file = "css/initial"/>
+<import type = "css" file = "css/vip"/>
+<import type = "js" file = "js/jquery"/>
+<import type = "js" file = "js/jquery_min"/>
+<import type = "js" file = "js/common"/>
+<import type = "js" file = "js/tinybox"/>
+<script type="text/javascript">
+$(function(){
+	var $form_inputs = $('form input');
+	var $rainbow_and_border = $('.rain, .border');
+	$form_inputs.bind('focus', function(){
+		$rainbow_and_border.addClass('end').removeClass('unfocus start');
+	});
+	$form_inputs.bind('blur', function(){
+	$rainbow_and_border.addClass('unfocus start').removeClass('end');
+	});
+	$form_inputs.first().delay(800).queue(function() {
+	$(this).focus();
+	});
+});
+</script>
+</head>
+
+<body>
+<!------header--------->
+<include file="./Tpl/header.html" />
+<!-------------content-------->
+<div class="vip">
+	<ul class="">
+    	<li>
+    		<div class="">
+    			<img src="../images/lemon.png"/>
+    		</div>
+        </li>
+		<li>{$info}</li>
+        <li>
+    		<div class="rain">
+            <div class="border start">
+            <form class="inputs" method="post" action="">
+    			<input name="vip_code" class="txt" type="text" value="输入VIP码"  onfocus="if(value=='输入VIP码'){value=''}" 
+                    onblur="if(value==''){value='输入VIP码'}"/><a href="#" id="click1">?</a>
+                <input type="submit" value="立即成为VIP" /> 
+            </form>
+            </div>
+      
+          
+            
+            
+            
+            </div>
+        </li>
+        
+     </ul>
+</div>
+<script>
+ var content = "<img width='554' height='500' src='../images/img.png' />";//弹出图片
+        T$('click1').onclick = function(){TINY.box.show(content,0,0,0,0)}
+</script>
+
+
+</body>
+</html>
+            
